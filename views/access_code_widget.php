@@ -1,6 +1,6 @@
             <div class="l-box">
                 <p>
-                    <form class="pure-form pure-form-stacked" action="<?php echo $codeurl; ?>">
+                    <form class="pure-form pure-form-stacked" method="post" action="<?php echo $codeurl; ?>">
                         <fieldset>
                             <legend><?php echo _('Access code'); ?></legend>
                             <input type="text" placeholder="XXXXXX" name="access_code">
