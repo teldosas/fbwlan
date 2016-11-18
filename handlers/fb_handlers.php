@@ -180,7 +180,7 @@ function handle_checkin() {
         ));
         Flight::stop();
     }
-    $submitted_nonce = Flight::request()->query->nonce;
+    $submitted_nonce = Flight::request()->data->nonce;
     if (empty($submitted_nonce)) {
         Flight::error(new Exception('No nonce in form submission!'));
     }
@@ -196,7 +196,7 @@ function handle_checkin() {
         Flight::error(new Exception('No FB token in session!'));
     }
     $session = new FacebookSession($token);
-    $message = Flight::request()->query->message;
+    $message = Flight::request()->data->message;
 
     $config = array('place' => PAGE_ID);
     if (! empty($message)) {

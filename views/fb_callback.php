@@ -20,7 +20,7 @@
         <div class="pure-u-1 pure-u-md-1-2">
             <div class="l-box">
                 <p>
-                    <form class="pure-form pure-form-stacked" action="<?php echo $post_action; ?>">
+                    <form class="pure-form pure-form-stacked" method="post" action="<?php echo $post_action; ?>">
                         <fieldset>
                             <legend><?php echo _('Check In'); ?></legend>
                             <label for="text_fb_message"><?php echo _('Message'); ?></label>
