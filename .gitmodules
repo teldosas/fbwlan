@@ -1,9 +1,9 @@
 [submodule "include/flight"]
 	path = include/flight
 	url = https://github.com/mikecao/flight/
-[submodule "include/facebook-php-sdk-v4"]
-	path = include/facebook-php-sdk-v4
-	url = https://github.com/facebook/facebook-php-sdk-v4.git
 [submodule "static/fontawesome"]
 	path = static/fontawesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "include/php-graph-sdk"]
+	path = include/php-graph-sdk
+	url = https://github.com/facebook/php-graph-sdk
